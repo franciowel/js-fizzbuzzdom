@@ -4,5 +4,21 @@
 // // Stampare in console
 
 // START
-for(let i = 0; i <= 100; i++)
-console.log(i)
+
+// STAMPIAMO I NUMERI DA 1 A 100
+   for(let i = 0; i <= 100; i++) {
+    //    DIV 5 BUZZ
+       let FizzBuzzGenesis;
+       if(i % 5 === 0) {
+           FizzBuzzGenesis = 'Buzz';
+       }
+    //    DIV 3 FIZZ
+       if(i % 3 === 0) {
+           FizzBuzzGenesis = 'Fizz';
+       }
+    //    FIZZBUZZ 
+       if(i % 3 === 0 && i % 5 === 0) {
+           FizzBuzzGenesis = 'FizzBuzz';
+       }
+       console.log(FizzBuzzGenesis)
+   }
